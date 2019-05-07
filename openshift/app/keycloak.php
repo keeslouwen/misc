@@ -2,7 +2,7 @@
 header('Content-Type: application/json');
 
 $config = array(
-    'realm' => 'dev-webapps',
+    'realm' => 'dev-testkey',
     'auth-server-url' => $_ENV["KEYCLOAK_URL"],
     'resource' => "app2"
 );
